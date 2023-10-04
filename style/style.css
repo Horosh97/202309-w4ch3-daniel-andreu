@@ -10,6 +10,7 @@ html {
 
 body {
   margin: 0;
+  background-color: #ffc845;
 }
 
 h1,
@@ -34,10 +35,20 @@ a {
 
 header {
   display: flex;
-  padding: 30px;
+  padding: 25px;
   justify-content: space-between;
   background-color: #279989;
   color: #fff;
+}
+
+main {
+  padding: 25px;
+  background-color: #ffc845;
+}
+
+h2 {
+  padding: 10px 0px 10px 0px;
+  font-size: 1.7rem;
 }
 
 .main-title {
@@ -59,9 +70,34 @@ header {
   background-color: #44a080;
   font-size: 2rem;
   color: #fff;
-  padding: 30px;
+  padding: 25px;
 }
 
 .article-counter {
+  font-size: 1.5rem;
+}
+
+.add-article-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-label {
+  padding: 10px 0px 10px 0px;
+  font-size: 1.5rem;
+}
+
+.form-input {
+  padding: 20px;
+  width: 300px;
+}
+
+.form-button {
+  padding: 20px;
+  width: 120px;
+  align-content: center;
+  border: 0px solid;
+  background-color: #44a080;
+  color: #fff;
   font-size: 1.5rem;
 }
