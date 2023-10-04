@@ -52,3 +52,16 @@ header {
 .li-main-menu {
   padding: 10px;
 }
+
+.article-counter-section {
+  display: flex;
+  justify-content: space-between;
+  background-color: #44a080;
+  font-size: 2rem;
+  color: #fff;
+  padding: 30px;
+}
+
+.article-counter {
+  font-size: 1.5rem;
+}
