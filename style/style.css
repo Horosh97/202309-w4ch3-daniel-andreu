@@ -31,3 +31,24 @@ a {
   text-decoration: none;
   color: inherit;
 }
+
+header {
+  display: flex;
+  padding: 30px;
+  justify-content: space-between;
+  background-color: #279989;
+  color: #fff;
+}
+
+.main-title {
+  font-weight: bolder;
+  font-size: 2.3rem;
+}
+
+.ul-main-menu {
+  display: flex;
+}
+
+.li-main-menu {
+  padding: 10px;
+}
